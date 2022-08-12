@@ -1,0 +1,267 @@
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+    padding: 6px;
+    padding-left: 8px;
+    height: 25%;
+    width: 40%;
+
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    padding: 0 16px;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+    
+  }
+  
+  .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    position: top right;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: #101d18;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color: #0f5412;
+  }
+  
+  span.price {
+    float: right;
+    color: grey;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+  @media (max-width: 500px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }
+
+  /*---------------BASIC SETUP--------------*/
+.a_propos{
+    padding: 20px 0 10px 0;
+}
+.titre_colonne {
+    text-transform: uppercase;
+    font-size: 120%;
+    color: #D5D5D5;
+}
+
+footer {
+    margin-top: 25px;
+    background-image: url("/RESSOURCES/css/img/footer-background.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+    flex-wrap: wrap;
+
+
+    background-color: rgb(9, 4, 4);
+    color: #1f1f1f;
+    font-family: 'lato', 'arial', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+
+}
+
+.colonnes_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #d5d5d5;
+    flex-wrap: wrap;
+}
+
+.le_propos {
+    width: 40%;
+    margin-right: 30px;
+    /* margin-bottom: -45px; */
+}
+
+.liens_utiles,
+.aides,
+.les_reseaux {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.conditions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.colonnes_footer a {
+    text-decoration: none;
+    color: #D5D5D5;
+    transition: color 0.2s;
+    padding : 3px 0; 
+}
+
+.colonnes_footer a:hover,
+.colonnes_footer a:active {
+    color: #a0a0a0;
+}
+
+.right_side_footer p {
+    font-size: 120%;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+
+
+
+
+.le_propos p {
+    font-size: 110%;
+}
+
+
+
+
+
+.colonnes_footer a:hover,
+.colonnes_footer a:active,
+.conditions a:hover,
+.conditions a:active {
+    color: gray;
+}
+
+
+
+.conditions a {
+    color: #d5d5d5;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.conditions span {
+    font-size: 120%;
+    color: grey;
+}
+.conditions{
+    margin: 10px;
+
+}
+.conditions p {
+    color: #f0f0f0;
+
+
+}
+.logo_footer{
+    width: 15%;
+}
+.logo_footer img{
+    width: 100%;
+    height: auto;
+}
+/*----------------------------------------------*/
+/*--------------footer icons ---------------------*/
+.logo_facebook,
+.logo_instagram,
+.logo_twitter,
+.logo_youtube {
+    padding: 8px 5px 0 0;
+    font-size: 250%;
+    transition: color 0.2s;
+}
+
+.logo_facebook:hover {
+    color: #4267B2
+}
+
+.logo_instagram:hover {
+    color: rgb(150, 46, 106);
+}
+
+.logo_youtube:hover {
+    color: #FF0000;
+}
+
+.logo_twitter:hover {
+    color: #1DA1F2;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    footer {
+      font-size: 80%;
+      padding: 0;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    footer {
+      font-size: 60%;
+      padding: 0;
+    }
+    .le_propos{
+        width: 100%;
+    }
+  }

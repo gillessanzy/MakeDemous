@@ -1,0 +1,51 @@
+.intro
+{
+    display: flex;
+    margin: auto;
+    background-color: #22d4d5;
+}
+#portrait
+{
+    margin: 2%;
+}
+#bref
+{
+    margin: 2%;
+    
+}
+img
+{
+    height: auto;
+    min-width: 0px;
+    max-width: 100%;
+}
+#titre
+{
+    color: white;
+    text-align: center;
+}
+#contenu
+{
+    color: white;
+}
+#infos>p
+{
+    text-align: center  ;
+}
+
+#infos
+{
+    border: 5px solid #22d4d5;
+    border-radius: 5px;
+    margin: 0 25%;
+}
+
+#triangle-code
+{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-top : 150px solid #22d4d5;
+    border-right : 100% solid transparent;
+    border-left : 100% solid transparent;
+}

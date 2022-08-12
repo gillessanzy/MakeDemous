@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Panier</title>
+    <link rel="stylesheet" href="./panier.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div>
+            <h1 id="bigTitle">Panier</h1>
+            <p>Voir le panier</p>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td></td>
+                    <td>Produit</td>
+                    <td>Qté</td>
+                    <td></td>
+                    <td>Montant</td>
+                </tr>
+                <tr class="produitList">
+                    <td>
+                        <img src="./img/Cutter&Composants.png" alt="photo cutter" id="photoProduit">
+                    </td>
+                    <td>
+                        <a href="./desc_produit.html"><p>Cutter</p></a>
+                    </td>
+                    <td>
+                        <div>
+                            <input type="text" name="qte_produit" id="qte" value="1">
+                            <p>10,00€</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button>
+                            <img src="./img/bin.png" alt="delete produit" id="deleteIcon">
+                            <!-- <a href="https://www.flaticon.com/free-icons/trash" title="trash icons">Trash icons created by Freepik - Flaticon</a> -->
+                        </button>
+                    </td>
+                    <td>
+                        10,00€
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <button id="btn1">Mettre à jour le panier</button>
+            <button id="btn2">Vider le panier</button>
+        </div>
+        <div>
+            <input type="checkbox" id="cbox1"/>
+            <label for="cbox1">Estimation des frais de transports et de la TVA</label>
+        </div>
+        <div class="facture">
+            <div id="facture1">
+                <div>
+                    Sous-total
+                </div>
+                <div>
+                    10,00€
+                </div>
+            </div>
+            <div id="facture1">
+                <div>
+                    Expédition
+                </div>
+                <div>
+                    0,00€
+                </div>
+            </div>
+            <div id="facture1">
+                <div>
+                    Impôts
+                </div>
+                <div>
+                    0,00€
+                </div>
+            </div>
+            <div id="facture2">
+                <div>
+                    Total
+                </div>
+                <div>
+                    10,00€
+                </div>
+            </div>
+        </div>
+        <div>
+            <button id="btn1">Continuer vos achats</button>
+            <button id="btn1">Paiement sécurisé</button>
+        </div>
+    </main>
+    <footer></footer>
+</body>

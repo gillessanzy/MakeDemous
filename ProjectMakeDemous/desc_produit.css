@@ -1,0 +1,175 @@
+.hexagone
+{
+    position: relative;
+    width: 173.20508px;
+    visibility: hidden;
+    overflow: hidden;
+    -webkit-filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+}
+.hexagone:after
+{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    content: "";
+    display: block;
+    margin-top: 28.86751%;
+    padding-bottom: 86.602%;
+}
+.hexagone .hexagonemain
+{
+    display: block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 115.47005%;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    -ms-transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    transform: rotate3d(0, 0, 1, -60deg) skewY(30deg);
+    z-index: 1;
+}
+.hexagone .hexagonemainbefore
+{
+    content: "";
+    display: block;
+    position: absolute;
+    visibility: visible;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #22d4d5;
+    -webkit-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    -ms-transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+    transform: skewY(-30deg) rotate3d(0, 0, 1, 60deg);
+}
+.hexagone .hexagonecontent
+{
+    overflow-y: auto;
+    width: 100%;
+    display: block;
+    position: absolute;
+    visibility: visible;
+    bottom: 25%;
+    top: 25%;
+    left: 0;
+    z-index: 3;
+}
+.hexagone img
+{
+    left: -100%;
+    right: -100%;
+    width: auto;
+    height: 80%;
+    margin: 0 auto;
+    -webkit-transform: rotate3d(0,0,0,0deg);
+    -ms-transform: rotate3d(0,0,0,0deg);
+    transform: rotate3d(0,0,0,0deg);
+}
+
+div
+{
+  display: flex;
+}
+.div1
+{
+  flex-direction: row;
+}
+.div2
+{
+  flex-direction: column;
+}
+.div3
+{
+  flex-direction: column;
+}
+.desc
+{
+  flex-direction: column;
+  margin: 5%;
+}
+.prix
+{
+  flex-direction: row;
+  margin: 10%;
+}
+.buttons
+{
+  flex-direction: column;
+  margin: 5%;
+}
+
+#hex
+{
+  margin: auto 5%;
+}
+
+#titleQU
+{
+  font-family: sans-serif;
+  margin: 0%;
+}
+
+#suTitle
+{
+  font-family: sans-serif;
+  margin: 0%;
+  color: #666D73;
+  font-size: medium;
+}
+#descMain
+{
+  max-width: 80%;
+  font-size: medium;
+  margin: 1%;
+}
+#prixNum
+{
+  font-family: sans-serif;
+  margin: auto;
+}
+#qte
+{
+  font-size: large;
+  font-weight: bold;
+  margin: 1%;
+  /*border-radius: 10%;*/
+}
+#qtebox
+{
+  max-width: 15%;
+  margin: 1%;
+  border: #83969C solid 2px;
+  border-radius: 5px;
+}
+
+#btn1
+{
+  color: #2B2022;
+  background-color: #22d4d5;
+  border: 0;
+  margin: 1%;
+  font-size: larger;
+  padding: 10%;
+  border-radius: 8px;
+}
+#btn1:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#btn2
+{
+  color: #2B2022;
+  background-color: #83969C;
+  border: 0;
+  margin: 1%;
+  font-size: larger;
+  padding: 10%;
+  border-radius: 8px;
+}
+#btn1:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

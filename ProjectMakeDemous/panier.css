@@ -1,0 +1,71 @@
+#bigTitle
+{
+    color: #24A7A8;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-bottom-style: solid;
+    border-width: 5px;
+    padding: 2%;
+}
+.produitList
+{
+    background-color: #C4C4C4;
+    border: #C4C4C4 solid 2px;
+    border-radius: 2px;
+}
+#photoProduit
+{
+    width: 200px;
+    height: 200px;
+}
+#deleteIcon
+{
+    width: 20px;
+    height: 20px;
+}
+
+#qte
+{
+    max-width: 20%;
+    margin: 1%;
+}
+#facture1
+{
+    margin: 5px;
+}
+#facture2
+{
+    margin: 5px;
+    font-size: larger;
+    font-weight: bold;
+}
+#btn1
+{
+  color: #2B2022;
+  background-color: #22d4d5;
+  border: 0;
+  margin: 1%;
+  font-size: larger;
+  padding: 1%;
+  border-radius: 8px;
+}
+#btn1:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#btn2
+{
+  color: #2B2022;
+  background-color: #83969C;
+  border: 0;
+  margin: 1%;
+  font-size: larger;
+  padding: 1%;
+  border-radius: 8px;
+}
+#btn1:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

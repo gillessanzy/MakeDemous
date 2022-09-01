@@ -53,12 +53,10 @@
                 <a href="https://instagram.com">
                     <ion-icon class="logo_instagram" name="logo-instagram"></ion-icon>
                 </a><br>
-                <a href="https://youtube.com">
-                    <ion-icon class="logo_youtube" name="logo-youtube"></ion-icon>
-                </a>
-                <a href="https://twitter.com">
-                    <ion-icon class="logo_twitter" name="logo-twitter"></ion-icon>
-                </a>
+
+                <a href="https://linkedin.com">
+                <ion-icon class="logo_linkedin" name="logo-linkedin"></ion-icon>
+                </a><br>
             </div>
         </div>
         <div class="logo_footer">
